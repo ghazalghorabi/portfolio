@@ -1,0 +1,19 @@
+header{
+    background-color: rgba(255, 255, 255, 0.481);
+
+}
+body{
+    background-color: gray;
+}
+
+#aec{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    float: right;
+}
+#portfolio-logo{
+    align-items: center;
+    float: left;
+
+}
