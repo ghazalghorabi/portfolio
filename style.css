@@ -1,19 +1,66 @@
 header{
-    background-color: rgba(255, 255, 255, 0.481);
-
-}
-body{
-    background-color: gray;
+    background-color: rgba(193, 179, 179, 0.481);
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    font-weight: 10;
+    text-align: center;
+    padding: 0px 60px 0px;
+    float: inline-start;
 }
 
 #aec{
-    display: flex;
-    align-items: center;
-    gap: 300px;
-    float: right;
+    padding-left: 500px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-inline-end: 50px;
+    justify-content: flex-end;
 }
+
+#about-button{
+    font-family: sans-serif;
+    background-color: rgba(193, 179, 179, 0.481);
+    border-color:  rgba(193, 179, 179, 0.481);
+    border-width: 0px;
+}
+#education-button{
+    font-family: sans-serif;
+    background-color: rgba(193, 179, 179, 0.481);
+    border-color:  rgba(193, 179, 179, 0.481);
+    border-width: 0px;
+}
+#contacts-button{
+    font-family: sans-serif;
+    background-color: rgba(193, 179, 179, 0.481);
+    border-color:  rgba(193, 179, 179, 0.481);
+    border-width: 0px;
+}
+
 #portfolio-logo{
-    align-items: center;
-    float: left;
+    font-family: sans-serif;
 
 }
+
+body{
+    background-color: rgb(215, 204, 204);
+    font-family: sans-serif;
+}
+#cv-button{
+    width: 150px;
+}
+#my-pic{
+    padding-right: 200px;
+    padding-left: 200px;
+    float: right;
+}
+
+#buttons_div{
+    display: flex;
+    float:left;
+    justify-content: flex-end;
+    gap: 1000px;
+}
+#info-span{
+}
+    
