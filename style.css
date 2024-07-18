@@ -51,10 +51,11 @@ body{
 }
 #cv-button{
     width: 150px;
-    background-color: rgba(255, 255, 255, 0.922);
+    background-color: rgb(255, 255, 255);
     border-width: 1px;
     border-color: #ffffff00;
     border-radius: 50px;
+    color:#000;
 }
 #my-pic{
     padding-right: 200px;
