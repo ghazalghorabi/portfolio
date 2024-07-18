@@ -17,21 +17,21 @@ header{
 
 #about-button{
     font-family: sans-serif;
-    background-color: rgba(193, 179, 179, 0.481);
+    background-color: rgba(193, 179, 179, 0);
     border-color:  rgba(193, 179, 179, 0.481);
     margin: 10px;
     border-width: 0px;
 }
 #education-button{
     font-family: sans-serif;
-    background-color: rgba(193, 179, 179, 0.481);
+    background-color: rgba(193, 179, 179, 0);
     border-color:  rgba(193, 179, 179, 0.481);
     margin: 10px;
     border-width: 0px;
 }
 #contacts-button{
     font-family: sans-serif;
-    background-color: rgba(193, 179, 179, 0.481);
+    background-color: rgba(193, 179, 179, 0);
     border-color:  rgba(193, 179, 179, 0.481);
     border-width: 0px;
     margin: 10px;
@@ -39,15 +39,23 @@ header{
 
 #portfolio-logo{
     font-family: sans-serif;
+    font-size: large;
+    background-color: rgba(169, 171, 115, 0);
+    border-width: 0px;
 
 }
 
 body{
-    background-color: rgb(215, 204, 204);
+    background-color: rgba(193, 179, 179, 0.481);
     font-family: sans-serif;
 }
 #cv-button{
     width: 150px;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: #ffffff00;
+    border-radius: 50px;
+    color:#000;
 }
 #my-pic{
     padding-right: 200px;
@@ -68,4 +76,8 @@ body{
     gap: 20px;
     float: right;
     justify-content: flex-end;
+}
+
+#about-section{
+    padding: 100px;
 }
