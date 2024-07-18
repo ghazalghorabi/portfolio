@@ -6,12 +6,12 @@
     </header>
     <body>
         <header>
-            <div id="portfolio-logo">
+            <button id="portfolio-logo">
                 <h1>Portfolio.</h1>
-            </div>
+            </button>
 
             <span id="aec">
-                <button id="about-button">
+                <button id="about-button" onclick="goToPage('about.html')">
                     <h2>About</h2>
                 </button>
                 <button id="education-button">
@@ -54,11 +54,10 @@
 
             </div>
             <div id="buttons-div">
-                    <a href="cv-1.pdf"
-                    target="_blank"
+                    <a href="about.html"
                     title="go to cv">
                     <button id="cv-button">
-                        <h2>Download CV</h2>
+                        <h2>Get to know me!</h2>
                     </button>
                 </a> 
 
@@ -95,5 +94,10 @@
         <footer>
 
         </footer>
+        <script>
+            function goToPage(page){
+                window.location.href =page;
+            }
+        </script>
     </body>
 </html>
