@@ -22,7 +22,7 @@ header{
     margin: 10px;
     border-width: 0px;
 }
-#education-button{
+#projects-button{
     font-family: sans-serif;
     background-color: rgba(193, 179, 179, 0);
     border-color:  rgba(193, 179, 179, 0.481);
@@ -78,6 +78,6 @@ body{
     justify-content: flex-end;
 }
 
-#about-section{
+#aec-section{
     padding: 100px;
 }

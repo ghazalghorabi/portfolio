@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <title>here are my projects!</title>
+    </header>
+    <body>
+        <header>
+            <button id="portfolio-logo" onclick="goToPage('index.html')">
+                <h1>Portfolio.</h1>
+            </button>
+
+            <span id="aec">
+                <button id="about-button" onclick="goToPage('about.html')" >
+                    <h2>About</h2>
+                </button>
+                <button id="projects-button" style="color: aliceblue;">
+                    <h2>Projects</h2>
+                </button>
+                <button id="contacts-button" onclick="goToPage('contacts.html')">
+                    <h2>Contacts</h2>
+                </button>
+            </span>
+            
+        </header>
+        <main>
+            <section id="aec-section">
+                <h1>Projects</h1>
+                <p>here are a few projects I have worked on:</p>
+                <ul>
+                    <li><strong>Project 1:</strong></li>
+                </ul>
+                <!-- <h2>Projects</h2>
+                <p>Here are a few projects I have worked on:</p>
+                <ul>
+                    <li><strong>Project 1:</strong> A web application for managing tasks, built with React and Node.js. <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a></li>
+                    <li><strong>Project 2:</strong> A machine learning model to predict housing prices, implemented in Python. <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a></li>
+                </ul> -->
+        </main>
+        <footer>
+
+        </footer>
+        <script>
+            function goToPage(page){
+                window.location.href =page;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>here are my contacts</title>
+        <link rel="stylesheet" href="style.css">
+    </header>
+
+    <body>
+        <header>
+            <button id="portfolio-logo">
+                <h1>Portfolio.</h1>
+            </button>
+
+            <span id="aec">
+                <button id="about-button" onclick="goToPage('about.html')">
+                    <h2>About</h2>
+                </button>
+                <button id="projects-button" onclick="goToPage('projects.html')">
+                    <h2>Projects</h2>
+                </button>
+                <button id="contacts-button" style="color:  aliceblue;">
+                    <h2>Contacts</h2>
+                </button>
+
+            </span>
+        </header>
+        <main>
+            <section id="aec-section">
+                <h1>Contacts</h1>
+                <p>here are a few ways you can contact me:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:Ghazalghorabi2@gmail.com">ghazalghorabi2@gmail.com </a></li>
+                    <br>
+                    <li><strong>LinkdIn:</strong> <a href="https://www.linkedin.com/in/ghazal-ghorabi/" target="_blank"> My LinkedIn</a></li>
+                    <br>
+                    <li><strong>Telephone number:</strong> <a href="tel=+46764116886"> Call me</a></li>
+                    <br>
+                    <li><strong>Github:</strong> <a href="https://github.com/ghazalghorabi">My GitHub</a></li>
+                </ul>
+            </section>
+
+        </main>
+        <footer>
+
+        </footer>
+        <script>
+            function goToPage(page){
+                window.location.href =page;
+            }
+        </script>
+    </body>
+</html>
